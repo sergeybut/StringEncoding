@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Solution.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSLog(@"%@", [Solution encodeString:@"Errors in strategy cannot be correct through tactical maneuvers"]);
     }
     return 0;
 }
